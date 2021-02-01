@@ -1,3 +1,4 @@
+function welcome(username){
 alert("welcome to my website")
 var like = prompt("Do you like Spring?");
 console.log(like)
@@ -16,7 +17,12 @@ var times=prompt("rate spring from 1 - 5")
 for (var i=0; i<times; i++){document.write("<img src='like.jpg'>")
 
 }
+var getName=prompt('Your Name')
 
+    console.log(username);
+    alert('Hello user');
+}
+welcome();
 
 
   
